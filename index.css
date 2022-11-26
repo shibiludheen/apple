@@ -1,0 +1,529 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navebar{
+    opacity: 0.9;
+  position: fixed;
+    background-size: cover;
+    background-color: black;
+    height: 40px;
+    width: 100%;
+}
+.symbol{
+    width: 15%;
+    height: 10px;
+}
+.apple{
+    padding-left: 186px
+}
+.words{
+    display: flex;
+    flex-direction: row;
+    padding-left: 250px;
+    width: 100%;
+    height: 40px;
+}
+.words a{
+    padding-left: 60px;
+    text-decoration: none;
+    color: rgb(217,207,206);
+    font-weight: 50px;
+    font-size: 15px;
+
+}
+.firstc{
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/spirited_hero__dlcfsduexsya_large.jpg);
+    width: 100%;
+    height: 40rem;
+    background-position: center;
+
+}
+.swords{
+height: 200px;
+width: 37rem;
+
+}
+.swords p{
+    padding-top: 322px;
+    color: white;
+    font-size: 30px;
+}
+.swords h1{
+    font-weight: lighter;
+padding-left: 178px;
+    color: white;
+    font-size: 30px;
+}
+.second{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background:url("./images/hero_ase2022__c7wqoag7p94y_largeshort.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 40rem;
+
+}
+.twords{
+    margin-top: 10rem;
+    width: 28rem;
+    padding-bottom: 33rem;
+}
+.twords h1{
+    text-align: center;
+    color: white;
+font-size: 40px;
+
+
+}
+.twords p{
+    text-align: center;
+    color: rgb(85,84,89);
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 14px;
+}
+#looktag{
+    color: rgb(40,151,254);
+    text-decoration: none;
+    padding-left: 10rem;
+    font-size: 20px;
+}
+.firstimg{
+    width: 100%;
+
+}
+.third{
+
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50rem;
+   background-image: url(./images/hero_iphone14__fjmsqstr1ceq_large.jpg);
+
+}.third h1{
+    padding-left: 15rem;
+        font-size: 60px;
+    color: rgb(28,28,31);
+}
+.third h2{
+    font-weight: 100;
+    padding-left: 16rem;
+    font-size: 38px;
+    color: rgb(28,28,31);
+    
+}
+.fword{
+    height: 595px;
+    width: 723px;
+}
+#learnmore{
+line-height: 83px;
+    color: rgb(1,103,204);
+    font-size: 30px;
+text-decoration: none;
+padding-left: 16rem;
+
+}
+#buy{
+    padding-left: 200p;
+    color: rgb(1,103,204);
+    font-size: 30px;
+    text-decoration: none;
+    padding-left: 1rem;
+}
+.fourth{
+display: flex;
+flex-direction:  row;
+
+    height: 100%;
+ width: 100%;
+ background-size: cover; 
+ background-color: white;  
+}
+.iphone1{
+    margin-left: 1rem;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 47rem;
+    height: 37rem;
+    background-image: url(./images/promo_iphone14pro__4n4twj56fzmu_large.jpg);
+
+}
+.ipad{
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 47rem;
+    height: 37rem;
+    background-image: url(./images/promo_ipad__fioegapg12qi_large.jpg);
+}
+.hword{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 658px;
+    width: 700px;
+    margin-top: 3rem;
+ 
+
+}
+.hword h1{
+    line-height: 0px;
+  
+    font-size: 50px;
+color: rgb(245,244,246);
+}
+.hword h2{
+    line-height: 0px;
+    
+    padding-top: 3rem;
+    font-size: 30px;
+color: rgb(245,244,246);
+}
+
+#learn1{
+    line-height: 83px;
+    color: rgb(1,103,204);
+    font-size: 30px;
+text-decoration: none;
+  
+}
+#buy1{
+    margin-left: 50px;   
+    color: rgb(1,103,204);
+    font-size: 30px;
+    text-decoration: none;
+
+}
+.help{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.help1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#learn2{
+    line-height: 83px;
+    color: rgb(1,103,204);
+    font-size: 30px;
+text-decoration: none;
+
+}
+#buy2{
+    margin-left: 50px;
+    color: rgb(1,103,204);
+    font-size: 30px;
+    text-decoration: none;
+
+}
+.hword2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 658px;
+    width: 700px;
+    margin-top: 3rem;
+ 
+}
+.hword2 h1{
+    line-height: 0px;
+  
+    font-size: 50px;
+color: rgb(28,28,31);
+}
+.hword2 h2{
+    line-height: 0px;
+    
+    padding-top: 3rem;
+    font-size: 30px;
+color: rgb(28,28,31);
+}
+#learnmore{
+    line-height: 83px;
+        color: rgb(1,103,204);
+        font-size: 30px;
+    text-decoration: none;
+    padding-left: 16rem;
+    
+    }
+    #buy{
+        padding-left: 200p;
+        color: rgb(1,103,204);
+        font-size: 30px;
+        text-decoration: none;
+        padding-left: 1rem;
+    }
+    .fifth{
+    display: flex;
+    flex-direction:  row;
+    
+        height: 100%;
+     width: 100%;
+     background-size: cover; 
+     background-color: white;  
+    }
+    .airpods{
+        margin-left: 1rem;
+        background-repeat: no-repeat;
+        background-position:center;
+        width: 47rem;
+        height: 37rem;
+        background-image: url(./images/promo_airpods_holiday__fqg7rt8b4vma_large.jpg);
+    
+    }
+    .watch{
+        background-repeat: no-repeat;
+        background-position:center;
+        width: 47rem;
+        height: 37rem;
+        background-image: url(./images/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
+    }
+    .hword3{
+    
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+       flex-direction: column;
+        height: 658px;
+        width: 700px;
+        margin-top: 3rem;
+     
+    
+    }
+   
+    .hword3 h1{
+        line-height: 0px;
+        padding-top: 1rem;
+        font-size: 41px;
+        color: black;
+    }
+    .hword3 h2{
+        font-weight: 100;
+        line-height: 0px;
+        padding-top: 3rem;
+        font-size: 26px;
+        color: black;
+    }
+    
+   
+    #buy3{
+padding-top: 20px;
+        margin-left: 20px  ;
+        color: rgb(1,103,204);
+        font-size: 30px;
+        text-decoration: none;
+    
+    }
+ 
+   
+    .help3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #learn4{
+        line-height: 83px;
+        color: rgb(1,103,204);
+        font-size: 30px;
+    text-decoration: none;
+    
+    }
+    #buy4{
+        margin-left: 50px;
+        color: rgb(1,103,204);
+        font-size: 30px;
+        text-decoration: none;
+    
+    }
+    .hword4{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        height: 658px;
+        width: 700px;
+        margin-top: 3rem;
+     
+    }
+  
+    .hword4 h3{
+        font-weight: 100;
+        line-height: 0px;
+        
+        padding-top: 2rem;
+        font-size: 30px;
+    color: white;
+    }
+    .watchlogo{
+        background-image: url(./images/promo_logo_apple_watch_series_8__ee6riplsucuq_large.png);
+        width: 138px;
+        height: 51px;
+      background-repeat: no-repeat;
+        
+    }
+  
+    
+
+
+    .sixth{
+        display: flex;
+flex-direction:  row;
+
+    height: 100%;
+ width: 100%;
+ background-size: cover; 
+ background-color: white;
+    }
+    .cards{
+        margin-left: 1rem;
+        background-repeat: no-repeat;
+        background-position:center;
+        width: 47rem;
+        height: 37rem;
+        background-image: url(./images/tile__cauwwcyyn9hy_large.jpg);
+    
+    }
+    .watch2{
+        background-repeat: no-repeat;
+        background-position:center;
+        width: 47rem;
+        height: 37rem;
+        background-image: url(./images/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
+    }
+    .hword5{
+    
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+       flex-direction: column;
+        height: 658px;
+        width: 700px;
+        margin-top: 3rem;
+     
+    
+    }
+   
+    .hword5 h1{
+        font-weight: 100;
+        line-height: 0px;
+        padding-top: 1rem;
+        font-size: 23px;
+        color: black;
+    }
+    
+   
+    #buy4{
+        margin-left: 50px;
+        color: rgb(1,103,204);
+        font-size: 30px;
+        text-decoration: none;
+    
+    }
+    #learn5{
+        line-height: 83px;
+        color: rgb(1,103,204);
+        font-size: 30px;
+    text-decoration: none;
+ 
+    }
+    .help4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .help4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #learn6{
+        line-height: 83px;
+        color: rgb(1,103,204);
+        font-size: 30px;
+    text-decoration: none;
+    
+    }
+    #buy5{
+        margin-left: 50px;
+        color: rgb(1,103,204);
+        font-size: 30px;
+        text-decoration: none;
+    
+    }
+    .hword6{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        height: 658px;
+        width: 700px;
+        margin-top: 3rem;
+     
+    }
+  
+
+    .cardlogo{
+        background-image: url(./images/logo__dcojfwkzna2q_large.png);
+        width: 138px;
+        height: 51px;
+      background-repeat: no-repeat;
+        
+    }
+    .hword6 p{
+        font-weight: 100;
+        line-height: 0px;
+        padding-top: 1rem;
+        font-size: 23px;
+        color: black;
+    
+    }
+    .seventh{
+
+        color: rgb(245,244,246);
+
+
+    height: 100%;
+ width: 100%;
+ background-size: cover; 
+
+    }
+    .seventh p{
+        color: rgb(111,111,115);
+
+
+    }
+    .paragraph{
+    
+        padding: 2rem 5rem ;
+    
+    }
+    .fa-magnifying-glass{
+        padding-left: 50px;
+        color: white;
+    }
+    .fa-bag-shopping{
+    
+        padding-left: 70px;
+        color: white;
+    }
+
